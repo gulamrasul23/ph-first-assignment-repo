@@ -9,6 +9,7 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  background-color: #f5fbfd;
 }
 
 /* Share style */
@@ -109,4 +110,61 @@ nav {
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: 0;
+}
+/* Section-3 review style */
+.section-three {
+    margin:135px auto;
+    width: 80%;
+}
+.review-container{
+    display: flex;
+    justify-content: space-around;
+}
+.review-element {
+    width: 341px;
+    height: 200px;
+    background-color: #FFFFFF80;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+}
+.star-container {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.review h2 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.review-title h4{
+    font-size: 24px;
+    color: #1E1E1E;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.review-title p {
+    font-size: 16;
+    color: #1E1E1E;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.review-name {
+    display: flex;
+}
+.review-name img {
+    border-radius: 50%;
+    margin-right: 2px;
+}
+.review-name h5 {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+.review-name p {
+    color: #B3B3B3;
+    margin-top: 2px;
+    margin-bottom: 0px;
 }
