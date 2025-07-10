@@ -1,0 +1,111 @@
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+/* share style */
+.element-center {
+    text-align: center;
+}
+/* banner style */
+header {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0)), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 16px;
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+}
+.banner {
+    padding: 177px 344px;
+    text-align: center;
+    color:#FFFFFF;
+    
+}
+.banner-name {
+    font-size: 32px;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.507);
+}
+.banner-title {
+    font-size: 72px;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+/* section off */
+
+.off-content {
+    color:#FF0000;
+    font-size: 88px;
+    font-weight: bold;
+    margin-top:70px;
+    margin-bottom: 48px;
+    
+}
+.off-description{
+    color: #FF0000;
+    font-size: 24;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.off-catagories {
+    color:#070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+/* Party style section-2 */
+.party {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0)), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 16px;
+    width: 80%;
+    height: auto;
+    margin: 120px auto;
+}
+.party-title{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding:116px 50px 24px 136px; 
+    /* margin-bottom: 0; */
+    /* padding-bottom: 0; */ 
+
+}
+.party-description {
+    font-size: 18px;
+    font-weight: 300;
+    color:  rgba(255, 255, 255, 0.8);
+    padding: 0 0 48px 136px;
+}
+.join {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:#FFFFFF;
+    padding-left: 168px;
+    
+
+    
+}
+.party-image {
+    padding: 60px 128px 80px 0;
+}

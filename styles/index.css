@@ -18,11 +18,15 @@ background-color: #4E47FF;
 color: white;
 font-size: 16px;
 font-weight: 600;
-padding: 12px 36px;
+padding: 15px 36px;
 border-radius: 6px ;
 border-style: none;
 }
 /* Navigation Style */
+body {
+    padding: 0;
+    margin: 0;
+}
 header {
     background-image: url(../Assets/Hero-bg.png);
     background-repeat:repeat;
@@ -188,9 +192,101 @@ nav {
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }    
-.section-four-container .section-fore-btn {
+.section-four-container .section-four-btn {
     padding-bottom: 20px;
 }
 .section-four-container img {
     border-radius: 45px;
+}
+/* Section-5 style */
+
+.section-five {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex: 1;
+    gap: 120px;
+    justify-content: space-between;
+}
+.section-five-form form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+.section-five-container h1 {
+    font-size: 97px;
+    font-weight: bold;
+    padding: 130px 0;
+
+}
+.section-five-form label {
+    font-size: 18px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.section-five-form input {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 32px;
+    width: 500px;
+    border-radius: 10px;
+    border:1px solid #D6DDED;
+
+}
+.section-five-form textarea {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 32px;
+    width: 500px;
+    border-radius: 10px;
+    border:1px solid #D6DDED;
+    margin-bottom: 20px;
+}
+.section-five-form button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    border-style: none;
+    padding: 20px 32px;
+    width: 565px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+/* Footer style */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 150px;
+    background-color: #fff;
+    border:1px solid #D6DDED;
+}
+.footer-items {
+    text-align: center;
+    width: 550px;
+    height: 225px;
+}
+.footer-items h1{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.footer-items p{
+    color:#8987A1 ;
+}
+.footer-navber ul {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-navber li {
+    list-style: none;
+}
+.footer-navber a {
+    text-decoration: none;
+    color: #8987A1;
 }
